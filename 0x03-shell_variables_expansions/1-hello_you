@@ -1,3 +1,2 @@
-#!/bin/bash
- echo hello $LOGNAME
-
+#!/bin/bash$
+echo hello $LOGNAME$
