@@ -1,2 +1,3 @@
-#!/bin/bash
-echo hello $USER
+echo -e "#!/bin/bash\necho \"hello \$USER\"" > 1-hello_you
+chmod u+x 1-hello_you
+./1-hello_you
